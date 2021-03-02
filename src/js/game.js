@@ -1,5 +1,5 @@
 import character from './domain';
-class Game {
+export default class Game {
 	start() {
 		console.log('game started');
 	}
@@ -13,4 +13,3 @@ export function readGameSaving() {
 
 export function writeGameSaving() {
 }
-export default new Game();
