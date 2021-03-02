@@ -1,0 +1,30 @@
+{
+	"name": "import_export",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "webpack --mode production"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Suren73/import_export.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Suren73/import_export/issues"
+	},
+	"homepage": "https://github.com/Suren73/import_export#readme",
+	"devDependencies": {
+		"@babel/core": "^7.13.8",
+		"@babel/preset-env": "^7.13.9",
+		"babel-loader": "^8.2.2",
+		"html-webpack-plugin": "^5.2.0",
+		"mini-css-extract-plugin": "^1.3.9",
+		"webpack": "^5.24.2",
+		"webpack-cli": "^4.5.0"
+	}
+}
